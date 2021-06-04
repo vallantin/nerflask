@@ -1,0 +1,4 @@
+flask
+textacy
+spacy
+spacy-transformers
