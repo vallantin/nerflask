@@ -22,7 +22,7 @@ docker build -f dockerfile --tag medicalner .
 After deplying the image, run the app using:
 
 ```bash
-docker run --name medicalner -p 43656:43656 -t -i medicalner:latest
+docker run --name medicalner -p 43656:5000 -t -i medicalner:latest
 ```
 
 Change the '43656' to the port of your choice.
