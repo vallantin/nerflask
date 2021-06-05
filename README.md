@@ -151,6 +151,7 @@ In addition to Spacy's standard entities, the model is able to recognize:
 10. SYMPTOM: References to symptoms.
 11. NEGATION: Explicit negations.
 12. JARGON: References to broad medical terms.
+13. FAMILY: References to a family member (useful when describing diseases on the family)
 
 
 
