@@ -1,6 +1,5 @@
 # when tagging, use this dictionary
-possible_tags = ['CONDITION',
-                 'BRANCH',
+possible_tags = ['BRANCH',
                  'MEDICALDOCTOR',
                  'MENTALHEALTH',
                  'DISEASE',
