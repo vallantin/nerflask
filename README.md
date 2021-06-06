@@ -38,6 +38,8 @@ To use it without Docker, you will need:
 $ python -m spacy download en_core_web_sm
 ```
 
+Due to limiotations regarding the size of the model, you will have toi pull it from an external server. Install the model files using the script in nerflask/utils/getmodel.py.
+
 After this, edit the configs/config.py file and edit the available options. Currently, they are:
 
 1. appdebug: should the app start in debug mode?

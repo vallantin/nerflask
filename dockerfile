@@ -11,6 +11,9 @@ RUN pip install spacy
 RUN pip install spacy-transformers
 RUN python -m spacy download en_core_web_sm
 
+# Download model
+RUN python nerflask/utils/getmodel.py
+
 # Expose a port for Flask
 EXPOSE 5000
 
